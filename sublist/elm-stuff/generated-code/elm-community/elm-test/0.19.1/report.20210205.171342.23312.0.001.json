@@ -1,0 +1,401 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210205.171342.23312.0.001.json",
+    "dumpEventTime": "2021-02-05T17:13:42Z",
+    "dumpEventTimeStamp": "1612570422127",
+    "processId": 23312,
+    "cwd": "/home/marmar/exercism/elm/sublist/elm-stuff/generated-code/elm-community/elm-test/0.19.1",
+    "commandLine": [
+      "/home/marmar/.nvm/versions/node/v12.16.1/bin/node",
+      "/home/marmar/exercism/elm/sublist/elm-stuff/generated-code/elm-community/elm-test/0.19.1/elmTestOutput.js"
+    ],
+    "nodejsVersion": "v12.16.1",
+    "glibcVersionRuntime": "2.31",
+    "glibcVersionCompiler": "2.17",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "12.16.1",
+      "v8": "7.8.279.23-node.31",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "4.19.104-microsoft-standard",
+    "osVersion": "#1 SMP Wed Feb 19 06:37:35 UTC 2020",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 75215200,
+        "nice": 33241400,
+        "sys": 31755800,
+        "idle": 3766406500,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 66247300,
+        "nice": 32947900,
+        "sys": 27248400,
+        "idle": 3785084800,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 77111600,
+        "nice": 33012600,
+        "sys": 31919400,
+        "idle": 3768269100,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 64258700,
+        "nice": 32706800,
+        "sys": 25519900,
+        "idle": 3789923000,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 76835700,
+        "nice": 33193600,
+        "sys": 33572300,
+        "idle": 3766301300,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 65110500,
+        "nice": 32608300,
+        "sys": 25340000,
+        "idle": 3789401500,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 77550500,
+        "nice": 33179700,
+        "sys": 33795100,
+        "idle": 3765307900,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 64137200,
+        "nice": 33140300,
+        "sys": 25255200,
+        "idle": 3789724700,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "eth0",
+        "internal": false,
+        "mac": "00:15:5d:c7:0b:0c",
+        "address": "172.18.85.248",
+        "netmask": "255.255.240.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "eth0",
+        "internal": false,
+        "mac": "00:15:5d:c7:0b:0c",
+        "address": "fe80::215:5dff:fec7:b0c",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 4
+      }
+    ],
+    "host": "DESKTOP-B2UQ9JO"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000000b278f5",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::string const&, v8::Local<v8::String>) [/home/marmar/.nvm/versions/node/v12.16.1/bin/node]"
+    },
+    {
+      "pc": "0x00000000009f13ec",
+      "symbol": "node::OnFatalError(char const*, char const*) [/home/marmar/.nvm/versions/node/v12.16.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b5da9e",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/home/marmar/.nvm/versions/node/v12.16.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b5de19",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/home/marmar/.nvm/versions/node/v12.16.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d0a765",
+      "symbol": " [/home/marmar/.nvm/versions/node/v12.16.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d0adf6",
+      "symbol": "v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [/home/marmar/.nvm/versions/node/v12.16.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d1760a",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/home/marmar/.nvm/versions/node/v12.16.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d18515",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/home/marmar/.nvm/versions/node/v12.16.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d1afcc",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFail(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/home/marmar/.nvm/versions/node/v12.16.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000ce19bb",
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType, v8::internal::AllocationOrigin) [/home/marmar/.nvm/versions/node/v12.16.1/bin/node]"
+    },
+    {
+      "pc": "0x000000000102482c",
+      "symbol": "v8::internal::Runtime_AllocateInOldGeneration(int, unsigned long*, v8::internal::Isolate*) [/home/marmar/.nvm/versions/node/v12.16.1/bin/node]"
+    },
+    {
+      "pc": "0x00000000013a71b9",
+      "symbol": " [/home/marmar/.nvm/versions/node/v12.16.1/bin/node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2125283328,
+    "totalCommittedMemory": 2122321432,
+    "usedMemory": 2118221568,
+    "availableMemory": 74626880,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 33088,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 2097152,
+        "committedMemory": 3232,
+        "capacity": 1047456,
+        "used": 0,
+        "available": 1047456
+      },
+      "old_space": {
+        "memorySize": 2121416704,
+        "committedMemory": 2121223056,
+        "capacity": 2117312608,
+        "used": 2117312608,
+        "available": 0
+      },
+      "code_space": {
+        "memorySize": 430080,
+        "committedMemory": 204512,
+        "capacity": 163872,
+        "used": 163872,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 528384,
+        "committedMemory": 308680,
+        "capacity": 217120,
+        "used": 217120,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 499712,
+        "committedMemory": 499712,
+        "capacity": 492376,
+        "used": 492376,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047456,
+        "used": 0,
+        "available": 1047456
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 86.131,
+    "kernelCpuSeconds": 3.08148,
+    "cpuConsumptionPercent": 247.812,
+    "maxRss": 2209525760,
+    "pageFaults": {
+      "IORequired": 0,
+      "IONotRequired": 586292
+    },
+    "fsActivity": {
+      "reads": 0,
+      "writes": 24
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 30.7213,
+    "kernelCpuSeconds": 2.4549,
+    "cpuConsumptionPercent": 92.1561,
+    "fsActivity": {
+      "reads": 0,
+      "writes": 24
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "SHELL": "/bin/bash",
+    "COLORTERM": "truecolor",
+    "USES_VSCODE_SERVER_SPAWN": "true",
+    "NVM_INC": "/home/marmar/.nvm/versions/node/v12.16.1/include/node",
+    "TERM_PROGRAM_VERSION": "1.52.1",
+    "WSL_DISTRO_NAME": "Ubuntu",
+    "JAVA_HOME": "/usr/lib/jvm/java-8-openjdk-amd64",
+    "NAME": "DESKTOP-B2UQ9JO",
+    "PWD": "/home/marmar/exercism/elm/sublist",
+    "LOGNAME": "marmar",
+    "VSCODE_GIT_ASKPASS_NODE": "/home/marmar/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/node",
+    "HOME": "/home/marmar",
+    "LANG": "C.UTF-8",
+    "WSL_INTEROP": "/run/WSL/25466_interop",
+    "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+    "GIT_ASKPASS": "/home/marmar/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/git/dist/askpass.sh",
+    "NVM_DIR": "/home/marmar/.nvm",
+    "LESSCLOSE": "/usr/bin/lesspipe %s %s",
+    "ANDROID_HOME": "/home/marmar/Android",
+    "TERM": "xterm-256color",
+    "LESSOPEN": "| /usr/bin/lesspipe %s",
+    "USER": "marmar",
+    "VSCODE_GIT_IPC_HANDLE": "/tmp/vscode-git-fe493c8573.sock",
+    "AMD_ENTRYPOINT": "vs/server/remoteExtensionHostProcess",
+    "SHLVL": "1",
+    "NVM_CD_FLAGS": "",
+    "WSLENV": "VSCODE_WSL_EXT_LOCATION/up",
+    "VERBOSE_LOGGING": "true",
+    "VSCODE_GIT_ASKPASS_MAIN": "/home/marmar/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/git/dist/askpass-main.js",
+    "XDG_DATA_DIRS": "/usr/local/share:/usr/share:/var/lib/snapd/desktop",
+    "BROWSER": "/home/marmar/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/bin/helpers/browser.sh",
+    "PATH": "/home/marmar/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/bin:/home/marmar/.nvm/versions/node/v12.16.1/bin:/home/marmar/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Program Files/Calibre2/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/lappytoppy/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lappytoppy/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lappytoppy/AppData/Roaming/npm:/mnt/c/Users/lappytoppy/AppData/Local/Yarn/bin:/snap/bin:/usr/lib/jvm/java-8-openjdk-amd64/bin:/home/marmar/Android/tools:/home/marmar/Android/platform-toolsPATH=/home/marmar/.local/bin:/home/marmar/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/bin:/home/marmar/.nvm/versions/node/v12.16.1/bin:/home/marmar/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Program Files/Calibre2/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/lappytoppy/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lappytoppy/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lappytoppy/AppData/Roaming/npm:/mnt/c/Users/lappytoppy/AppData/Local/Yarn/bin:/snap/bin:/usr/lib/jvm/java-8-openjdk-amd64/bin:/home/marmar/Android/tools",
+    "PIPE_LOGGING": "true",
+    "NVM_BIN": "/home/marmar/.nvm/versions/node/v12.16.1/bin",
+    "HOSTTYPE": "x86_64",
+    "TERM_PROGRAM": "vscode",
+    "VSCODE_IPC_HOOK_CLI": "/tmp/vscode-ipc-d9105910-fda2-422a-8a0d-d693cecdbd38.sock",
+    "OLDPWD": "/home/marmar/exercism/elm/collatz-conjecture",
+    "_": "/home/marmar/.nvm/versions/node/v12.16.1/bin/elm-test"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 65536,
+      "hard": 65536
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 4096,
+      "hard": 4096
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 76370,
+      "hard": 76370
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/lib/x86_64-linux-gnu/libdl.so.2",
+    "/lib/x86_64-linux-gnu/libstdc++.so.6",
+    "/lib/x86_64-linux-gnu/libm.so.6",
+    "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "/lib/x86_64-linux-gnu/libpthread.so.0",
+    "/lib/x86_64-linux-gnu/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2"
+  ]
+}
